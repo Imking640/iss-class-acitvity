@@ -13,3 +13,6 @@ pairs = find_cube_pairs(1729)               # a comma was present here , removed
 print("Valid cube pairs for 1729:")
 for a, b in pairs:                          # changed pair to pairs and added a colon
     print(f" → {a}³ + {b}³ = {a**3} + {b**3} = 1729")    #here ** 2 was given earlier but we are calculating cube hence **3 i used
+
+
+# THIS PROGRAM FINDS PAIRS (A,B) SUCH THAT A^3 + B^3 = TARGET WHICH IN OUR CASE IS 1729
